@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="calculator__input-box">
+        <div class="calculator__input-section">
+          <label for="" class="calculator__input-label">Day</label>
+          <input placeholder="DD" type="text" class="calculator__input">
+        </div>
+        <div class="calculator__input-section">
+          <label for="" class="calculator__input-label">Month</label>
+          <input placeholder="MM" type="text" class="calculator__input">
+        </div>
+        <div class="calculator__input-section">
+          <label for="" class="calculator__input-label">Year</label>
+          <input placeholder="YYYY" type="text" class="calculator__input">
+        </div>
+      </div>
+      <div class="calculator__submit-section">
+        <div class="calculator__submit-button-box">
+          <img src="./assets/images/icon-arrow.svg" alt="" class="calculator__submit-button">
+        </div>
+        <div class="calculator__deco-line"></div>
+      </div>
+      <div class="calculator__result">
+        <div class="calculator__value-box">
+          <h2 class="calculator__value"><span class="calculator__years">--</span> years</h2>
+        </div>
+        <div class="calculator__value-box">
+          <h2 class="calculator__value"><span class="calculator__months">--</span> months</h2>
+        </div>
+        <div class="calculator__value-box">
+          <h2 class="calculator__value"><span class="calculator__days">--</span> days</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
