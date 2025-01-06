@@ -25,6 +25,12 @@ body {
     border-radius: 10px 10px 60px 10px;
     background-color: $white;
 
+    &__error {
+        margin: .25rem 0;
+        font-size: .5rem;
+        color: $red;
+    }
+
     &__input-box {
         display: flex;
         gap: 1rem;

@@ -8,18 +8,19 @@
 <body>
   <div class="container">
     <div class="calculator">
+      <p class="calculator__error"></p>
       <div class="calculator__input-box">
         <div class="calculator__input-section">
           <label for="" class="calculator__input-label">Day</label>
-          <input placeholder="DD" type="text" class="calculator__input">
+          <input placeholder="DD" type="text" class="calculator__input calculator__input--day">
         </div>
         <div class="calculator__input-section">
           <label for="" class="calculator__input-label">Month</label>
-          <input placeholder="MM" type="text" class="calculator__input">
+          <input placeholder="MM" type="text" class="calculator__input calculator__input--month">
         </div>
         <div class="calculator__input-section">
           <label for="" class="calculator__input-label">Year</label>
-          <input placeholder="YYYY" type="text" class="calculator__input">
+          <input placeholder="YYYY" type="text" class="calculator__input calculator__input--year">
         </div>
       </div>
       <div class="calculator__submit-section">
@@ -30,13 +31,13 @@
       </div>
       <div class="calculator__result">
         <div class="calculator__value-box">
-          <h2 class="calculator__value"><span class="calculator__years">--</span> years</h2>
+          <h2 class="calculator__value"><span class="calculator__result-years">--</span> years</h2>
         </div>
         <div class="calculator__value-box">
-          <h2 class="calculator__value"><span class="calculator__months">--</span> months</h2>
+          <h2 class="calculator__value"><span class="calculator__result-months">--</span> months</h2>
         </div>
         <div class="calculator__value-box">
-          <h2 class="calculator__value"><span class="calculator__days">--</span> days</h2>
+          <h2 class="calculator__value"><span class="calculator__result-days">--</span> days</h2>
         </div>
       </div>
     </div>
